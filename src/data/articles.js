@@ -2,7 +2,7 @@ const articles=[
   {
     date:"11/12/20",
     title:"On the Street in Brooklyn",
-    img:"./src/assets/blog-image-1.jpg",
+    img:"blog-image-1.jpg",
     alt:"blog-image-1",
     content:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus labore commodi quis earum sequi blanditiis similique maxime. Et ullam incidunt eveniet explicabo eum voluptate. Quasi eaque harum autem vel nobis.
       Inventore animi magni id repudiandae pariatur ut voluptatem! Modi suscipit autem qui atque quaerat deserunt consequuntur et error minima perferendis recusandae officia explicabo, reprehenderit iure ducimus officiis natus illum aliquam.
@@ -16,7 +16,7 @@ const articles=[
   {
     date:"11/11/20",
     title:"Vintage in Vogue",
-    img:"./src/assets/blog-image-2.jpg",
+    img:"blog-image-2.jpg",
     alt:"blog-image-2",
     content:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ratione, facere cumque illum voluptas officiis nobis rerum nihil necessitatibus provident aperiam eaque quia exercitationem temporibus doloremque adipisci libero at rem.
       Sequi nostrum vitae distinctio, dignissimos rem voluptatem omnis eos nulla pariatur numquam autem est tenetur quos error atque itaque obcaecati voluptates dolore esse, delectus, cum eligendi? Maxime numquam nulla reiciendis?
