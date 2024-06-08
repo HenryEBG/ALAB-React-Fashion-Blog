@@ -1,6 +1,13 @@
-function Header(){
+import Nav from "./Nav"
+function Header({title,subtitle,nav}){
+
   return (
-    <div className="principalContainer"></div>
+    <header>
+      <h1>{title}</h1>
+      <h2>{subtitle}</h2>
+      <Nav navElements={nav} />
+     
+    </header>
   )
 }
 

@@ -2,12 +2,27 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import Header from './components/Header.jsx'
+import Main from './components/Main.jsx'
+import Footer
+ from './components/Footer.jsx'
 function App() {
   const [count, setCount] = useState(0)
+  
+  const superiorMenu =[
+    "Women's",
+    "Men's",
+    "On the Street",
+    "The Catwalk",
+    "AdWatch",
+    "About"
+  ]
 
   return (
     <>
+      <Header title="Sartre's List" subtitle="Better-Dressed People" nav={superiorMenu}/>
+      <Main/>
+      <Footer/>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
