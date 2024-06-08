@@ -1,6 +1,17 @@
+import Article from "./Article.jsx"
+import articles from "../data/articles.js"
+
+
 function Main(){
   return (
-   <main> </main>
+   <main> 
+    {articles.map((article,index)=>{
+      return (
+        <Article key={index} data={article}/>
+      )
+    })}
+    
+   </main>
   )
 }
 

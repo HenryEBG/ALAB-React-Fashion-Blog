@@ -1,6 +1,11 @@
-function Footer(){
+import Nav from "./Nav.jsx"
+
+function Footer({nav}){
   return (
-   <footer></footer>
+   <footer>
+    <Nav navElements={nav} />
+    <p>&copy; 2013 Valet Industries, Inc</p>
+   </footer>
   )
 }
 
